@@ -1,0 +1,47 @@
+# Next.js
+.next
+out
+
+# Node.js
+node_modules
+
+# Build files
+build
+dist
+
+# Cache and logs
+.cache
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor and IDE files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Dependencies
+/.pnp
+.pnp.js
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js image optimization cache
+public/_next/image
+
+# Compiled output
+public/manifest.json
+public/service-worker.js
+public/favicon.ico
